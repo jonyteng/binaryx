@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "clean": "node scripts/clean.bin.js",
+    "bootstrap": "node scripts/bootstrap.bin.js",
+    "update": "node scripts/update.bin.js -u",
+    "update-check": "node scripts/update.bin.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "lerna": "^3.18.3",
+    "rimraf": "^3.0.2"
+  }
+}
