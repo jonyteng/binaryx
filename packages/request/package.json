@@ -1,0 +1,26 @@
+{
+  "name": "@binaryx/request",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "keywords": [
+    "request",
+    "http2"
+  ],
+  "author": "jonyteng <jonyteng@outlook.com>",
+  "homepage": "https://github.com/jonyteng/binaryx#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonyteng/binaryx.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jonyteng/binaryx/issues"
+  },
+  "dependencies": {
+    "@binaryx/debug": "^0.0.1"
+  }
+}

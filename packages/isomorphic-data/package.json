@@ -1,0 +1,32 @@
+{
+  "name": "@binaryx/isomorphic-data",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "jonyteng <jonyteng@outlook.com>",
+  "homepage": "https://github.com/jonyteng/binaryx#readme",
+  "license": "ISC",
+  "main": "src/data-node.js",
+  "browser": "dist/data-browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonyteng/binaryx.git"
+  },
+  "scripts": {
+    "build": "babel src/data-browser.js --out-dir dist --copy-files",
+    "prepare": "rimraf -rf dist && npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/jonyteng/binaryx/issues"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "qs": "^6.9.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.10.4",
+    "rimraf": "^3.0.2"
+  }
+}

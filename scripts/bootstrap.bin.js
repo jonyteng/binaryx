@@ -23,6 +23,6 @@ const bootstrap = async () => {
   } catch (e) {
     console.log(failColor, '--- FAIL: bootstrap ---');
   }
-}
+};
 
 bootstrap();
